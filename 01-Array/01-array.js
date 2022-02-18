@@ -103,7 +103,7 @@ const arr5 = [
     if (found) {
       return index;
     } else {
-      return "4";
+      return "";
     }
     
   }
@@ -113,4 +113,4 @@ const arr5 = [
   console.log(searchInArray(arr, 4));
   console.log(searchInArray(arr, 8));
 
-// Ekspektation output : null, 4, null, 5
+// Ekspektation output : 4
