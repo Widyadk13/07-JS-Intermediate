@@ -6,6 +6,8 @@
 // return value [Number] berupa sebuah array baru yang sudah terbalik
 // Untuk mempermudah proses pengerjaan kamu dapat menggunakan code template dibawah ini
 
+console.log("--------- SOAL 1 ----------");
+
 const arr = [1, 2, 3];
 const arr2 = [8, 1, 5, 7];
 
@@ -34,6 +36,8 @@ console.log(arr2, newArr2);
 // arr [Array of Number] => array 1 dimensi dengan nilai Number
 // return value [Number] total angka yang melebihi nilai rata-rata
 // Untuk mempermudah proses pengerjaan kamu dapat menggunakan code template dibawah ini
+
+console.log("--------- SOAL 2 ----------");
 
 const arr3 = [1, 3, 4, 1, 2, 8];
 const arr4 = [5, 6, 7, 8, 1, 3]; 
@@ -80,6 +84,8 @@ console.log(getAverage(arr4))
 // apabila kita tidak menemukan nilai tersebut maka kembalikan null
 // dan apabila kita menemukan nilai tersebut, maka kita akan mengembalikan index dari nilai tersebut (index dalam bentuk 1 dimensi bukan multi dimensi)
 
+console.log("--------- SOAL 3 ----------");
+
 const arr5 = [
     [10],
     [9, 7, 1],
@@ -87,30 +93,35 @@ const arr5 = [
   ];
   
   function searchInArray(arr, num) {
-    tempArr = []
+    let tempArr = []
     for(let c = 0; c < arr.length; c++) {
-      let number = arr [c];
-      for(let d = 0; d < arr.length; d++) {
-        tempArr.push = number[d];
+      let number = arr[c];
+      for(let d = 0; d < number.length; d++) {
+        // console.log(num[d]);
+        tempArr.push(number[d]);
       }
     }
+
     for(let e = 0; e < tempArr.length; e++) {
+      // console.log(tempArr[e]);
       if(tempArr[e] === num) {
         var found = true;
         var index = e;
       }
     }
+
     if (found) {
       return index;
     } else {
-      return "";
+      return "null";
     }
     
   }
-  
-  console.log(searchInArray(arr, 3));
-  console.log(searchInArray(arr, 2));
-  console.log(searchInArray(arr, 4));
-  console.log(searchInArray(arr, 8));
 
-// Ekspektation output : 4
+  // searchInArray(arr)
+  console.log(searchInArray(arr5, 3));
+  console.log(searchInArray(arr5, 2));
+  console.log(searchInArray(arr5, 4));
+  console.log(searchInArray(arr5, 8));
+
+// Ekspektation output : null, 4, null, 5
