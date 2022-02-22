@@ -1,0 +1,11 @@
+Soal 1:
+
+- Apa itu localStorage?
+  => localStorage adalah salah satu metode yang yang bertujuan untuk menyimpan data pada web browser. Keuntungan dari local storage yaitu, data akan tetap ada meskipun user malakukan proses penutupan pada web.
+
+- Apa itu cookies?
+  => Cookies merupakan salah satu data dari JavaScript yang berfungsi untuk menyimpan data atau informasi user pada halaman web. 
+
+- Apa perbedaan antara localStorage dan sessionStorage?
+  => localStorage: Membantu user untuk menyimpan data pada halaman web browser,namun jika halaman web browserditutup data user tidak akan kehilangan atau tetap ada. 
+  => sessionStorage: Membantu user untuk menyimpan data pada halaman web browser, namun apabila halaman web browser ditutup maka data akan kembali kosong.

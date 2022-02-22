@@ -5,7 +5,6 @@
 // 2. memiliki 1 parameter:
 //     -) arr [Array] => array of number yang nanti kita akan cari jumlahnya
 // 3. return value [Number] => nilai kembalian berupa sebuah Number
-// 4. Untuk mempermudah proses pengerjaan kamu dapat menggunakan code template dibawah ini
 
 console.log("--------- SOAL 1 ----------");
 
@@ -57,3 +56,29 @@ console.log(totalAboveAvg2);
 
 // Ekspektation output :    2 // Ada 3 elemen yang melebihi atau sama dengan nilai rata-rata yaitu 4 dan 5
 //                          2 // Ada 3 elemen yang melebihi atau sama dengan nilai rata-rata yaitu 10 dan 22
+
+
+
+
+// Soal - 03
+// Kalian diminta untuk membuat fungsi yang mana akan mencari sebuah nilai didalam array of number, fungsi tersebut memiliki spesifikasi sebagai berikut:
+
+// 1. fungsi harus ditulis menggunakan recursive
+// 2. memiliki 2 parameter:
+//     - arr [Array] => array of number yang nanti akan kita cari value-nya
+//     - num [Number] => angka yang hendak kita cari
+// 3. return value:
+//     - apabila kita tidak menemukan angka tersebut maka kita akan mengembalikan "angka tidak ditemukan"
+//     - apabila kita menemukan angka tersebut maka kita akan mengembalikan "angka ditemukan pada index: $INDEX"
+
+console.log("--------- SOAL 3 ----------");
+
+const arr = [1, 2, 3, 4, 5];
+function searchInArray(arr, num) {
+
+}
+
+searchInArray(arr, 6);
+searchInArray(arr, 1);
+searchInArray(arr, 8);
+ 
